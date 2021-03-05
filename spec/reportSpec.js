@@ -13,5 +13,9 @@ describe("Report", function () {
     it("Should return 'Amber: 1' if 'Amber'", function () {
       expect(report.convert("Amber")).toBe("Amber: 1");
     });
+
+    it("Should return 'Red: 1' if 'Red'", function () {
+      expect(report.convert("Red")).toBe("Red: 1");
+    });
   });
 });
