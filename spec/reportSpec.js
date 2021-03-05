@@ -2,7 +2,7 @@ describe("Report", function () {
   let report;
 
   beforeEach(function () {
-    let report = new Report();
+    report = new Report();
   });
 
   describe("convert", function () {

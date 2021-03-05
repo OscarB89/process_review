@@ -1,3 +1,5 @@
 class Report {
-  convert(string) {}
+  convert(string) {
+    return "Green: 1";
+  }
 }
