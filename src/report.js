@@ -1,1 +1,3 @@
-class Report {}
+class Report {
+  convert(string) {}
+}
