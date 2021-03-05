@@ -6,8 +6,12 @@ describe("Report", function () {
   });
 
   describe("convert", function () {
-    it("Should return a string as output", function () {
+    it("Should return 'Green: 1' if 'Green'", function () {
       expect(report.convert("Green")).toBe("Green: 1");
+    });
+
+    it("Should return 'Amber: 1' if 'Amber'", function () {
+      expect(report.convert("Amber")).toBe("Amber: 1");
     });
   });
 });
